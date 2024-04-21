@@ -36,3 +36,12 @@ This command will compute the moving average with a window size of 20 minutes fo
 ```
 python Translation_Challenge.py --input_file /path/to/input_file.json --window_size 20 --limit_date 2024-05-01
 ```
+
+## Test Files:
+In the `Sample Data` directory, two test files have been provided for evaluating the functionality of the code:
+1. **events.json:**
+   - This file contains sample data provided in the challenge prompt. The contents of this file can be used as a reference for testing the code against the original challenge requirements.
+2. **events_sample.json:**
+   - This file contains new sample data with different values for testing additional cases
+
+
