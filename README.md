@@ -11,6 +11,7 @@
 ## Implementation Options:
 1. **Limit Date Argument:**
    - An optional third argument, `--limit_date`, allows filtering the oldest date for computing the moving average.
+   - This argument can assume 2 formats: `YYYY-MM-DD` or `"YYYY-MM-DD HH:MM:SS"`
 2. **Use of Pandas Package:**
    - Uses the pandas package for efficient data manipulation. The dataset is converted into a DataFrame, and the datetime column is set as the index for optimized filtering.
 3. **Output File Saving:**
